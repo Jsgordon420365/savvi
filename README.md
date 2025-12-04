@@ -227,8 +227,8 @@ Edit `.env` file for:
 - [x] Project scaffolding & configuration ✅
 - [x] Configuration management module (Task 1.A.1) ✅
 - [x] Logging setup (Task 1.A.2) ✅
-- [ ] Input validation (Task 1.A.3) - NEXT
-- [ ] PDF extraction & OCR
+- [x] Input validation (Task 1.A.3) ✅
+- [ ] PDF extraction & OCR - NEXT
 - [ ] Dish parsing & normalization
 - [ ] Recipe search integration
 - [ ] Allergen detection
