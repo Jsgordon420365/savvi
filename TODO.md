@@ -4,12 +4,12 @@
 
 Last Updated: 2025-12-03
 Current Phase: Phase 1 - Core MVP Development
-Current Focus: Phase 1A - Core Infrastructure (100% complete) ✅
+Current Focus: Phase 1B - PDF Processing (30% complete)
 
 ### 🎯 IMMEDIATE NEXT STEPS
-1. **Task 1.B.1**: Create `src/core/menu_parser.py` - PDF Text Extraction
-2. **Task 1.B.2**: Create `src/processors/pdf_processor.py` - OCR for Scanned Menus
-3. **Task 1.B.3**: Text Normalization
+1. ✅ **Task 1.B.1**: PDF Text Extraction (`src/core/menu_parser.py`) - **COMPLETED**
+2. 🔄 **Task 1.B.2**: OCR for Scanned Menus (`src/processors/pdf_processor.py`) - **IN PROGRESS**
+3. **Task 1.B.3**: Text Normalization - **NEXT**
 
 **See `cursor.md` for detailed Cursor IDE prompts for each task.**
 
@@ -17,8 +17,8 @@ Current Focus: Phase 1A - Core Infrastructure (100% complete) ✅
 
 ## PHASE 1: MVP - Menu Parsing & Dietary Marking
 
-**Current Focus**: Phase 1A - Core Infrastructure (100% complete) ✅
-**Next Task**: Task 1.B.1 - PDF Text Extraction
+**Current Focus**: Phase 1B - PDF Processing (30% complete)
+**Next Task**: Task 1.B.2 - OCR for Scanned Menus (in progress)
 
 ### ✅ COMPLETED
 - [x] Project scaffolding structure
@@ -48,11 +48,22 @@ Current Focus: Phase 1A - Core Infrastructure (100% complete) ✅
   - 300+ lines of production-ready code
 
 ### 🎯 NEXT UP (Phase 1B - PDF Processing)
-- [ ] **Task 1.B.1**: PDF Text Extraction (`src/core/menu_parser.py`)
-  - Extract text from native PDFs using PyPDF2
-  - Handle multi-page PDFs
-  - Preserve section structure
-  - **Priority**: CRITICAL | **Effort**: 8h | **Status**: Ready to start
+- [x] **Task 1.B.1**: PDF Text Extraction (`src/core/menu_parser.py`) - **COMPLETED**
+  - ✅ Extract text from native PDFs using PyPDF2
+  - ✅ Handle multi-page PDFs with page break markers
+  - ✅ Extract metadata and text by page
+  - ✅ Detect text-based vs image-based PDFs
+  - ✅ 15 unit tests, all passing
+  - **Priority**: CRITICAL | **Effort**: 8h | **Status**: ✅ Done
+
+- [ ] **Task 1.B.2**: OCR for Scanned Menus (`src/processors/pdf_processor.py`) - **IN PROGRESS**
+  - ✅ PDFProcessor class created
+  - ✅ is_scanned_menu() detection
+  - ✅ convert_to_images() using pdf2image
+  - ✅ ocr_image() with Tesseract and preprocessing
+  - ✅ process() method for intelligent handling
+  - [ ] Unit tests pending
+  - **Priority**: HIGH | **Effort**: 6h | **Status**: 80% complete
 
 ### 📋 PHASE 1 DETAILED TASKS
 
