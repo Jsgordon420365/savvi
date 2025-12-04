@@ -2,7 +2,7 @@
 
 ## Project Status: MVP Development 🚀
 
-**Note**: All timestamps use format `YyyyMMDDHHMMSS` (2-digit year, month, day, 24-hour time)
+**Note**: All timestamps use format `yyMMddHHmmss` (2-digit year, month, day, 24-hour time, EST)
 
 Last Updated: 251203212144
 Current Phase: Phase 1 - Core MVP Development
