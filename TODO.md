@@ -28,18 +28,18 @@ Current Focus: Phase 1B - PDF Processing (30% complete)
 - [x] Scaffold script executed - Project structure created at `C:\Users\Gordo\projects\savvi`
 - [x] Requirements.txt updated with all dependencies (20 packages)
 - [x] Scaffold scripts updated for future use
-- [x] **Task 1.A.1**: Configuration Management (`src/utils/config.py`) - COMPLETED ✅
+- [x] **Task 1.A.1**: Configuration Management (`src/utils/config.py`) - COMPLETED ✅ (2025-12-03 14:30:00)
   - Pydantic-based configuration system
   - Environment variable and YAML loading
   - Comprehensive validation and accessor methods
   - 329 lines of production-ready code
-- [x] **Task 1.A.2**: Logging Setup (`src/utils/logger.py`) - COMPLETED ✅
+- [x] **Task 1.A.2**: Logging Setup (`src/utils/logger.py`) - COMPLETED ✅ (2025-12-03 15:15:00)
   - Structured logging with console and file output
   - Daily log rotation (10MB per file, 5 backups)
   - Configurable log levels for development and production
   - Comprehensive unit tests created
   - 166 lines of production-ready code
-- [x] **Task 1.A.3**: Input Validation (`src/utils/validators.py`) - COMPLETED ✅
+- [x] **Task 1.A.3**: Input Validation (`src/utils/validators.py`) - COMPLETED ✅ (2025-12-03 16:00:00)
   - PDF file validation (existence, format, size limits)
   - Dietary preference validation against config
   - Allergen list validation against config
@@ -48,7 +48,7 @@ Current Focus: Phase 1B - PDF Processing (30% complete)
   - 300+ lines of production-ready code
 
 ### 🎯 NEXT UP (Phase 1B - PDF Processing)
-- [x] **Task 1.B.1**: PDF Text Extraction (`src/core/menu_parser.py`) - **COMPLETED**
+- [x] **Task 1.B.1**: PDF Text Extraction (`src/core/menu_parser.py`) - **COMPLETED** ✅ (2025-12-03 17:30:00)
   - ✅ Extract text from native PDFs using PyPDF2
   - ✅ Handle multi-page PDFs with page break markers
   - ✅ Extract metadata and text by page
@@ -56,7 +56,7 @@ Current Focus: Phase 1B - PDF Processing (30% complete)
   - ✅ 15 unit tests, all passing
   - **Priority**: CRITICAL | **Effort**: 8h | **Status**: ✅ Done
 
-- [ ] **Task 1.B.2**: OCR for Scanned Menus (`src/processors/pdf_processor.py`) - **IN PROGRESS**
+- [ ] **Task 1.B.2**: OCR for Scanned Menus (`src/processors/pdf_processor.py`) - **IN PROGRESS** (Started: 2025-12-03 18:00:00)
   - ✅ PDFProcessor class created
   - ✅ is_scanned_menu() detection
   - ✅ convert_to_images() using pdf2image
