@@ -1,0 +1,35 @@
+# No-Confirm Rule
+
+## Purpose
+Prevent user confirmation prompts for files that are merely logging/documenting what has been done.
+
+## Scope
+Files that should NOT require confirmation:
+- Documentation files (`.md` files) that only update progress tracking, timestamps, or completion status
+- Log files (`.log` files)
+- Progress tracking files (`TODO.md`, `cursor.md`, `README.md`, `QUICK_REFERENCE.md`, etc.)
+- Files that only update timestamps or completion checkboxes
+- Files that document completed tasks without changing functionality
+
+## When to Auto-Accept
+Auto-accept changes to markdown files when:
+- Only updating progress percentages or completion status
+- Only adding timestamps to completed tasks
+- Only updating "Last Updated" fields
+- Only marking tasks as completed with checkboxes
+- Only updating progress bars or status indicators
+- Only documenting what was done (not changing functionality)
+
+## When to Still Require Confirmation
+Still require confirmation for:
+- Code changes (`.py`, `.js`, `.ts`, etc.)
+- Configuration changes (`.yaml`, `.json`, `.env`, etc.)
+- Structural changes to documentation (new sections, major rewrites)
+- Changes that modify functionality or behavior
+
+## Implementation
+When updating documentation files that only log progress:
+1. Make the changes directly
+2. Do not wait for user confirmation
+3. Proceed with commits and updates
+4. Only ask for confirmation if the change affects functionality or structure
