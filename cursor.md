@@ -1276,6 +1276,8 @@ Overall: [█████░░░░░] 25%
 
 ---
 
+**Note**: All timestamps use format `yyMMddHHmmss` (2-digit year, month, day, 24-hour time, EST)
+
 **Last Updated**: 251203212144
 **Recent Progress**: 
 - ✅ Phase 1A Complete (100%) - All infrastructure tasks completed (251203160000)
