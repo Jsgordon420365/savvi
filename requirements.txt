@@ -1,0 +1,42 @@
+# SAVVI - Dietary Menu Analysis System
+# Core Dependencies
+PyPDF2==3.0.1
+pdf2image==1.16.3
+pillow==10.0.1
+pytesseract==0.3.10
+python-dotenv==1.0.0
+reportlab==4.0.7
+
+# Data Processing
+pandas==2.0.3
+numpy==1.24.3
+requests==2.31.0
+
+# Database & API
+sqlalchemy==2.0.21
+fastapi==0.103.0
+uvicorn==0.23.2
+psycopg2-binary==2.9.7
+asyncpg==0.29.0
+pydantic==2.5.0
+pydantic-settings==2.1.0
+
+# NLP & Recipe Analysis
+textblob==0.17.1
+nltk==3.8.1
+
+# Search & Scraping
+beautifulsoup4==4.12.2
+selenium==4.13.0
+lxml==4.9.3
+
+# Testing
+pytest==7.4.0
+pytest-cov==4.1.0
+pytest-asyncio==0.21.1
+httpx==0.25.2
+
+# Utilities
+pyyaml==6.0.1
+click==8.1.7
+colorama==0.4.6
