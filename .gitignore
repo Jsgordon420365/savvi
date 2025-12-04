@@ -54,3 +54,6 @@ data/processed_menus/*
 temp/
 tmp/
 *.tmp
+
+# Archives
+archives/
