@@ -118,7 +118,7 @@ Day 1: Setup (2 hours)
   └─ Run scaffold → Configure .env → Install dependencies
 
 Days 2-3: Phase 1A-1B (PDF Processing) (16 hours)
-  └─ Text extraction, OCR setup, normalization
+  └─ ✅ Infrastructure complete | ✅ Text extraction done | 🔄 OCR in progress
 
 Days 4-5: Phase 1C-1D (Parsing & Research) (16 hours)
   └─ Extract dishes, research recipes, validate recipes
@@ -148,7 +148,18 @@ Total: ~2.5 weeks to working MVP
 - ✅ Python venv created
 - ✅ Dependencies installed
 
-### After Phase 1
+### After Phase 1A (Infrastructure) - ✅ COMPLETE
+- ✅ Configuration management
+- ✅ Logging system
+- ✅ Input validation
+- ✅ All infrastructure tests passing
+
+### After Phase 1B (PDF Processing) - 🔄 IN PROGRESS (30%)
+- ✅ PDF text extraction working
+- 🔄 OCR for scanned menus (in progress)
+- [ ] Text normalization
+
+### After Phase 1 (Full MVP) - 🎯 TARGET
 - ✅ CLI tool working
 - ✅ Processes PDF menus
 - ✅ Generates marked PDFs
