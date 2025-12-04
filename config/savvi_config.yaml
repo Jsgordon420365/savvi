@@ -1,0 +1,59 @@
+# SAVVI Configuration File
+
+application:
+  name: SAVVI
+  version: 0.1.0
+  environment: development
+
+pdf_processing:
+  max_file_size_mb: 50
+  supported_formats:
+    - pdf
+    - image
+  ocr:
+    enabled: true
+    language: eng
+    quality_threshold: 0.75
+
+allergen_categories:
+  critical:
+    - peanuts
+    - tree nuts
+    - shellfish
+    - fish
+    - sesame
+    - milk
+    - eggs
+    - wheat
+    - soy
+  moderate:
+    - gluten
+    - processed in shared facilities
+  mild:
+    - high sodium
+    - spicy
+
+dietary_preferences:
+  vegan:
+    excludes: []
+    flags: [animal_product, dairy, eggs, honey]
+  vegetarian:
+    excludes: []
+    flags: [meat, poultry, fish, shellfish]
+  gluten_free:
+    excludes: [wheat, barley, rye]
+    flags: [cross_contamination]
+  keto:
+    excludes: [grains, sugar, legumes]
+    flags: [carb_heavy]
+
+recipe_search:
+  confidence_threshold: 0.90
+  max_results: 5
+  timeout_seconds: 10
+
+output:
+  format: pdf_marked
+  include_confidence_scores: true
+  include_recipe_notes: true
+  editable_fields: true
