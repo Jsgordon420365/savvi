@@ -223,13 +223,13 @@ Edit `.env` file for:
 
 ### Development Phases
 
-**Phase 1 (MVP): Menu Parsing & Marking** [CURRENT - 25% Complete] (Updated: 251203180000)
+**Phase 1 (MVP): Menu Parsing & Marking** [CURRENT - 25% Complete] (Updated: 251203213515)
 - [x] Project scaffolding & configuration ✅ (251203120000)
 - [x] Configuration management module (Task 1.A.1) ✅ (251203143000)
 - [x] Logging setup (Task 1.A.2) ✅ (251203151500)
 - [x] Input validation (Task 1.A.3) ✅ (251203160000)
 - [x] PDF text extraction (Task 1.B.1) ✅ (251203173000)
-- [ ] PDF OCR for scanned menus (Task 1.B.2) - IN PROGRESS (Started: 251203180000)
+- [x] PDF OCR for scanned menus (Task 1.B.2) ✅ (251203213500)
 - [ ] Dish parsing & normalization
 - [ ] Recipe search integration
 - [ ] Allergen detection
