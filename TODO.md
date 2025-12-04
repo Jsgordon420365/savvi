@@ -2,7 +2,9 @@
 
 ## Project Status: MVP Development 🚀
 
-Last Updated: 2025-12-03 21:21:44
+**Note**: All timestamps use format `YMMDDHHMMSS` (2-digit year, month, day, 24-hour time)
+
+Last Updated: 251203212144
 Current Phase: Phase 1 - Core MVP Development
 Current Focus: Phase 1B - PDF Processing (30% complete)
 
