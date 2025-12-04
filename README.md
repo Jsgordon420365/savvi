@@ -201,13 +201,13 @@ Edit `.env` file for:
    # Project created at: C:\Users\Gordo\projects\savvi
    ```
 
-2. **Setup Environment** (NEXT STEP)
+2. **Setup Environment** ✅ COMPLETED (2025-12-03)
    ```powershell
    cd $env:USERPROFILE\projects\savvi
-   cp .env.template .env
-   python -m venv venv
-   .\venv\Scripts\Activate.ps1
-   pip install -r requirements.txt
+   cp .env.template .env  # ✅ Ready
+   python -m venv venv  # ✅ Done
+   .\venv\Scripts\Activate.ps1  # ✅ Done
+   pip install -r requirements.txt  # ✅ Ready
    ```
 
 3. **Configure**
