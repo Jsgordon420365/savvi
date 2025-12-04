@@ -1,6 +1,11 @@
 # SAVVI Project - README
 ## Sensitive • Allergic • Vegan • Vegetarian • Intolerant
 
+**Repository**: https://github.com/Jsgordon420365/savvi  
+**Status**: Phase 1A - Infrastructure (90% complete) | Overall: 25%  
+**Last Updated**: 2025-12-03  
+**Recent**: ✅ Configuration Management & Logging Setup completed
+
 ### Mission
 Transform restaurant PDF menus into personalized, dietary-safe documents that clearly indicate which dishes are safe, which can be modified, and which must be avoided based on individual dietary needs, allergies, and preferences.
 
@@ -218,7 +223,11 @@ Edit `.env` file for:
 
 ### Development Phases
 
-**Phase 1 (MVP): Menu Parsing & Marking** [CURRENT]
+**Phase 1 (MVP): Menu Parsing & Marking** [CURRENT - 25% Complete]
+- [x] Project scaffolding & configuration ✅
+- [x] Configuration management module (Task 1.A.1) ✅
+- [x] Logging setup (Task 1.A.2) ✅
+- [ ] Input validation (Task 1.A.3) - NEXT
 - [ ] PDF extraction & OCR
 - [ ] Dish parsing & normalization
 - [ ] Recipe search integration
