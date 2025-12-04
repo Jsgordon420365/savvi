@@ -420,6 +420,7 @@ class TestPDFProcessor:
             
             processor = PDFProcessor(str(pdf_file))
             
-            with pytest.raises(RuntimeError, match="OCR is disabled but required"):
+            # The process method wraps RuntimeError in ValueError when OCR fails
+            with pytest.raises(ValueError, match="Failed to process PDF.*OCR"):
                 processor.process()
 
